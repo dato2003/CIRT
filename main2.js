@@ -1,1 +1,3 @@
-document.getElementById("Para").innerHTML = sessionStorage.getItem("Choice");
+function AtTheStart() {
+    document.getElementById("P").innerHTML = sessionStorage.getItem("Choice");   
+}
