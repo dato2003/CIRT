@@ -1,0 +1,1 @@
+document.getElementById("Para").innerHTML = sessionStorage.getItem("Choice");

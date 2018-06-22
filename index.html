@@ -8,12 +8,20 @@
     <script src="main.js"></script>
 </head>
 <body>
+    
+    <script>
+        function Change_Page() {
+            window.location.href = "checkout.html";
+        }
+    </script>
+    
     <h1>Choose Your VM</h1>
+    
     <form>
         <input type="radio" name="Option" value="Mac">Mac<br>
         <input type="radio" name="Option" value="Windows">Windows<br>
         <input type="radio" name="Option" value="Linux">Linux<br>
     </form>
-    <button onclick="GetInput()" id="SubmitButton">Submit</button>
+    <input type="button" id = "SubmitButton" value="Submit" onclick="GetInput()"/>
 </body>
 </html>
