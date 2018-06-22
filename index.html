@@ -9,10 +9,11 @@
 </head>
 <body>
     <h1>Choose Your VM</h1>
-    <span>
-        <input type="radio" name="Option1" value="Mac" checked>Mac<br>
-        <input type="radio" name="Option2" value="Windows">Windows<br>
-        <input type="radio" name="Option3" value="Linux">Linux<br>
-    </span>
+    <form>
+        <input type="radio" name="Option" value="Mac">Mac<br>
+        <input type="radio" name="Option" value="Windows">Windows<br>
+        <input type="radio" name="Option" value="Linux">Linux<br>
+    </form>
+    <button onclick="GetInput()" id="SubmitButton">Submit</button>
 </body>
 </html>
